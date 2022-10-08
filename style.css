@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+footer {
+  background-color: #4169e1;
+  height: 200px;
+  padding: 50px 100px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-list-item {
+  margin: 5px 0;
+}
+
+.footer-list-item > a {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.footer-list-item > a:hover {
+  color: #c9fdf0;
+  font-weight: 550;
+}
+
+.Athifs-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: royalblue;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+}
+
+.Athifs-list-item {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.Athifs-list-item > a {
+  color: #c9fdf0;
+  text-decoration: none;
+}
+
+.Athifs-list-item > a:hover {
+  color: #92f202;
+  font-weight: 550;
+}
+
+.hero-img {
+  width: 100vw;
+}
+
+.info-section{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4em 0;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  max-width: 45%;
+  max-height: 350px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #00d1ff;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
+/*   overflow:scroll; */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-heading,
+.card-body {
+  line-height: 1.5;
+  padding: 0 1em;
+  margin-bottom: 0.8em;
+}
+
+.card-img {
+  max-height: auto;
+  width: 45%;
+  padding-bottom: 2em;
+}
+
+lrg-text {
+  font-size: 1.5rem;
+}
+
+.red-text{
+  color: red;
+}
+
+.xl-text{
+  font-size: 4rem;
+}
+
+.mb1 {
+  margin-bottom: 1em;
+}
+
+.centered{
+  width: 65%;
+  margin-left: 17.5%;
+}
+
+.flex-container-col{                                 
+  display: flex; 
+  flex-direction: column;
+  margin-top:4em;
+  margin-bottom:4em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+} 
+
+.card-img-medium{
+  max-height: auto;
+  width: 50%;  
+} 
+
+.padding-right-left{
+ padding-left: 5em;
+ padding-right: 5em;
+}
+
+.padding-top-bottom {
+ padding-top: 8em;
+ padding-bottom: 8em;
+}
+
+.margin-top-bottom {
+ margin-top: 8em;
+ margin-bottom: 8em;
+}
+
+/* About page styles */
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic { 
+  height: 20rem;
+  width: auto;
+  border-radius: 45%;  
+}
+
+.mb2 {
+  margin-botton: 2em;
+}
+
+.about-info {
+  padding-left: 4em;
+}
+
+.about-para {
+  line-height: 1.6;
+}
+
+.mt2 {
+  margin-top: 2em;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-icon {
+  height: 100px;
+  width: auto;
+}
+
+.skill-icon-small {
+  height: 80px;
+  width: aouto;
+}
+
+.small-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.icon-heading {
+  font-weight: 900;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.main-about {
+  width: 70vw;
+  margin-left: 15vw;
+}
+
+.hobbies-contact {
+  display: flex;
+  justify-content: space-between;
+} 
+
+
+.hobbies {
+   max-width: 45%;
+}
+  
+.about-para {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+}
+  
+.contact-btn { 
+  background-color: rgb(10, 186, 199);
+  color: #ffffff;
+  border: none;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 20%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+  
+.contact-btn:hover{
+  background-color: rgb(37, 206, 218);
+  box-shadow: 4px 4px 12px rgba(5, 4, 22, 0.5);
+}
+
+.solution-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-height: 300px;
+  max-width: 50vw;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.solution1 {
+  background-image: url("https://ichef.bbci.co.uk/news/400/cpsprodpb/5421/production/_95473512_hi017409567.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.solution2 {
+  background-image: url("/images/sea-wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.solution3 {
+  background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Glacier_Facts_travel_blog/story_full_width/4h7kdu6bo7_Alaska_June_2010_053.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.solution4 {
+  background-image: url("/images/sea-wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blur-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 12px;
+  border-radius: 6px 6px 0 6px;
+  color: #ccd5ff;
+}
